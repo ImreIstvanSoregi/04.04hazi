@@ -1,0 +1,66 @@
+#feladat1{
+    margin: 2cm;
+    border: 2px solid blue;
+    padding: 4mm;
+}
+span{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: orange;
+    float: left;
+}
+
+#kulso{
+    height: 12cm;
+    width: 12cm;
+    background-color: red;
+    position: static;
+}
+
+#kozepso{
+    height: 8cm;
+    width: 8cm;
+    background-color:  green;
+    position: relative;
+    top: -375px;
+    left: 75px;
+}
+
+#belso{
+    height: 4cm;
+    width: 4cm;
+    background-color: blue;
+    position: relative;
+    top: -600px;
+    left: 150px;
+}
+
+.szoveg{
+    background-color: lavenderblush;
+    padding: 10px;
+    margin: 1%;
+    width: 20%;
+}
+
+p::first-letter{
+    font-size: 180%;
+    font-weight: bolder;
+    color: red;
+}
+
+ul{
+    top: auto;
+    height: 2cm;
+    padding: 1cm 0 0 0;
+    border: 20px;
+    border-style: dotted;
+}
+
+li{
+    background-color: lightseagreen;
+    height: 1cm;
+    width: 15%;
+    margin: 3mm;
+    list-style: none;
+}
